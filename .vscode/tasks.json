@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "start_scss",
+            "type": "shell",
+            "command": "node-sass -w --source-map true public_html/scss/style.scss public_html/css/style.css",
+            "problemMatcher": []
+        }
+    ]
+}
