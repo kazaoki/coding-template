@@ -1,0 +1,4 @@
+genie/opt/*/*.tar
+spec/report.*
+spec/captures/*
+zap/report.*
